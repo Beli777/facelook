@@ -1,0 +1,65 @@
+.login{
+	background: url('./assets/login.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	&__holder{
+		flex: 1;
+    	text-align: center;
+    	opacity: 0;
+    	&-box{
+    		background: white;
+		    margin: 0 auto;
+		    width: 40rem;
+		    padding: 2rem;
+		    text-align: left;
+		    h1{
+		    	margin-bottom: 2rem;
+		    	font-size: 2.5rem;
+		    	text-transform: uppercase;
+		    	color: $darkGreen;
+		    }
+		    label{
+		    	font-size: 1.2rem;
+		    	display: block;
+		    	font-weight: 700;
+		    	margin-left: 0;
+		    	margin-bottom: 0.3rem;
+		    	color: $lightGreen;
+		    }
+		    input{
+		    	padding: 0.5rem;
+		    	width: 28.2rem;
+		    	font-family: $fontDefault;
+		    	font-size: 1.4rem;
+		    	font-style: italic;
+		    	outline: none;
+		    }
+		    button{
+		    	padding: 1.1rem 5rem;
+		    	border-radius: 0;
+		    	background-color: $brandColor;
+		    	color: $white;
+		    	font-size: 1.4rem;
+		    	border: 0;
+		    	text-transform: uppercase;
+		    	display: block;
+		    	margin-top: 1rem;
+		    	cursor: pointer;
+		    }
+    	}
+    	&-item{
+    		margin-bottom: 1.3rem;
+    	}
+	}
+	&__sign{
+		margin-top: 1.5rem;
+    	text-align: right;
+    	font-size: 1.3rem;
+    	a{
+    		color: $brandColor;
+    	}
+	}
+}

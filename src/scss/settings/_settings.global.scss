@@ -1,0 +1,26 @@
+///------------------------------------
+//    #SETTINGS
+//------------------------------------
+
+// Globaly available classes
+
+
+
+
+
+//-------------------------
+//    Global default settings
+//	  for ceratin classes
+//-------------------------
+
+
+// an example
+
+// .article-title {
+// 	color: $black;
+// 	z-index: 4;
+// 	position: relative;
+// }
+.box{
+	box-shadow: 1px 1px 8px 1px $borderColor;
+}
